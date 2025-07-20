@@ -36,3 +36,74 @@
     transform: rotate(360deg);
   }
 }
+/* App.css - Luxurious Theme */
+
+body {
+  font-family: 'Segoe UI', Roboto, Helvetica, sans-serif;
+  background: #f8f5f2;
+  margin: 0;
+  padding: 0;
+  color: #2c2c2c;
+}
+
+h1, h2, h3 {
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+input, button {
+  font-family: inherit;
+  border: none;
+  outline: none;
+}
+
+input[type="number"] {
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 150px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background: #c59d5f;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #b38a4b;
+}
+.goal-card {
+  background: white;
+  max-width: 600px;
+  margin: 1.5rem auto;  /* ✅ centers horizontally */
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  border: 1px solid #e8e8e8;
+}
+
+
+.goal-card p {
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+}
+
+/* Deposit form */
+.goal-card form {
+  margin-top: 1rem;
+}
+
+/* Delete button style */
+.goal-card button:last-of-type {
+  background: #a94442;
+  margin-top: 1rem;
+}
+
+.goal-card button:last-of-type:hover {
+  background: #922d2a;
+}

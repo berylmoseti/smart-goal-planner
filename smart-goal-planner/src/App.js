@@ -46,7 +46,7 @@ function App() {
 
   return (
     <div className="App" style={{ padding: "2rem" }}>
-      <h1>🎯 SMART GOAL PLANNER</h1>
+      <h1> SMART GOAL PLANNER</h1>
       <Overview goals={goals} />
       <AddGoalForm onAdd={handleAddGoal} />
       <GoalList
