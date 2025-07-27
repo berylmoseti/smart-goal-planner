@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../App.css"; // Make sure this path is correct relative to your folder structure
+import "../App.css"; 
 
 function GoalCard({ goal, onUpdate, onDelete }) {
   const {

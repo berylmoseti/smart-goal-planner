@@ -19,7 +19,7 @@ function AddGoalForm({ onAdd }) {
     e.preventDefault();
     const newGoal = {
       ...formData,
-      id: crypto.randomUUID(), // Generate unique ID
+      id: crypto.randomUUID(), 
       savedAmount: 0,
       createdAt: new Date().toISOString().split("T")[0]
     };

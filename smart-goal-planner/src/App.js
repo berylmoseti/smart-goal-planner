@@ -17,14 +17,14 @@ function App() {
     fetchGoals().then((data) => setGoals(data));
   }, []);
 
-  // CREATE: Add new goal
+  
   const handleAddGoal = (newGoal) => {
     addGoal(newGoal).then((savedGoal) =>
       setGoals((prevGoals) => [...prevGoals, savedGoal])
     );
   };
 
-  // UPDATE: Update an existing goal
+  
   const handleUpdateGoal = (id, updates) => {
     updateGoal(id, updates).then((updatedGoal) =>
       setGoals((prevGoals) =>
@@ -35,7 +35,7 @@ function App() {
     );
   };
 
-  // DELETE: Remove goal
+  
   const handleDeleteGoal = (id) => {
     deleteGoal(id).then(() =>
       setGoals((prevGoals) =>
