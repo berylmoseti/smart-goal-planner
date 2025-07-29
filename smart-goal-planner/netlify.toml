@@ -1,5 +1,3 @@
-# netlify.toml
 [build]
-  base = "" # or "client" if your project is inside a subfolder
-  publish = "build" # or "dist" depending on your framework
   command = "npm run build"
+  publish = "build"
